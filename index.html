@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Amor ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('fundo.jpg') no-repeat center center fixed;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #ffb6c1;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .event {
+      background-color: #ffe4ec;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .event img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 0.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    audio {
+      display: block;
+      margin: 2rem auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    𝓝𝓸𝓼𝓼𝓸 𝓐𝓶𝓸𝓻 ❤
+  </header>
+
+  <audio controls autoplay loop>
+    <source src="musica.mp3" type="audio/mpeg">
+    Seu navegador não suporta o áudio :(
+  </audio>
+
+  <section class="timeline">
+    <h2>Linha do Tempo</h2>
+
+    <div class="event">
+      <h3>Primeira vez que nos vimos</h3>
+      <img src="fotos/primeira_vez.jpg" alt="Primeira vez que nos vimos">
+    </div>
+
+<div class="event">
+  <h3>A primeira vez que ficamos juntos</h3>
+  <video controls width="100%" style="border-radius: 12px;">
+    <source src="fotos/primeira_ficada.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos :(
+  </video>
+</div>
+
+
+    <div class="event">
+      <h3>O primeiro dia que saímos</h3>
+      <img src="fotos/primeiro_encontro.jpg" alt="Primeiro dia que saímos">
+    </div>
+
+    <div class="event">
+      <h3>O dia que te pedi em namoro</h3>
+      <img src="fotos/pedido_namoro.jpg" alt="Pedido de namoro">
+    </div>
+  </section>
+
+  <section>
+    <h2>Memórias</h2>
+    <div class="gallery">
+      <img src="fotos/memorias/1.jpg" alt="Memória 1">
+      <img src="fotos/memorias/2.jpg" alt="Memória 2">
+      <img src="fotos/memorias/3.jpg" alt="Memória 3">
+      <img src="fotos/memorias/4.jpg" alt="Memória 4">
+      <img src="fotos/memorias/5.jpg" alt="Memória 5">
+      <img src="fotos/memorias/6.jpg" alt="Memória 6">
+      <!-- Adicione mais fotos na pasta "fotos/memorias/" -->
+    </div>
+  </section>
+</body>
+</html>
